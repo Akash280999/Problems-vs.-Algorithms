@@ -38,11 +38,11 @@ def sqrt(number):
     except Exception :
         return None
 
-print ("Pass" if  (3 == sqrt(9)) else "Fail")
-print ("Pass" if  (0 == sqrt(0)) else "Fail")
-print ("Pass" if  (4 == sqrt(16)) else "Fail")
-print ("Pass" if  (1 == sqrt(1)) else "Fail")
-print ("Pass" if  (5 == sqrt(27)) else "Fail")
-print ("Pass" if  (None == sqrt('Hello')) else "Fail")
-print ("Pass" if  (None == sqrt(-34)) else "Fail")
-print ("Pass" if  (None == sqrt(14.3)) else "Fail")
+print ("Pass" if  (3 == sqrt(9)) else "Fail")   # expect output Pass
+print ("Pass" if  (0 == sqrt(0)) else "Fail")   # expect output Pass
+print ("Pass" if  (4 == sqrt(16)) else "Fail")  # expect output Pass
+print ("Pass" if  (1 == sqrt(1)) else "Fail")   # expect output Pass
+print ("Pass" if  (5 == sqrt(27)) else "Fail")  # expect output Pass
+print ("Pass" if  (None == sqrt('Hello')) else "Fail")  # expect output Pass
+print ("Pass" if  (None == sqrt(-34)) else "Fail")      # expect output Pass
+print ("Pass" if  (None == sqrt(14.3)) else "Fail")     # expect output Pass
