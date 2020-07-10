@@ -9,7 +9,7 @@ def sqrt(number):
     """
     try:
         int(number)
-        if number<0 or type(number)==float:
+        if number < 0 or type(number) == float:
             return None
 
         # base case
@@ -35,14 +35,15 @@ def sqrt(number):
                 # If mid*mid is greater
                 end = mid - 1
         return ans
-    except Exception :
+    except Exception:
         return None
 
-print ("Pass" if  (3 == sqrt(9)) else "Fail")   # expect output Pass
-print ("Pass" if  (0 == sqrt(0)) else "Fail")   # expect output Pass
-print ("Pass" if  (4 == sqrt(16)) else "Fail")  # expect output Pass
-print ("Pass" if  (1 == sqrt(1)) else "Fail")   # expect output Pass
-print ("Pass" if  (5 == sqrt(27)) else "Fail")  # expect output Pass
-print ("Pass" if  (None == sqrt('Hello')) else "Fail")  # expect output Pass
-print ("Pass" if  (None == sqrt(-34)) else "Fail")      # expect output Pass
-print ("Pass" if  (None == sqrt(14.3)) else "Fail")     # expect output Pass
+
+print("Pass" if (3 == sqrt(9)) else "Fail")  # expect output Pass
+print("Pass" if (0 == sqrt(0)) else "Fail")  # expect output Pass
+print("Pass" if (4 == sqrt(16)) else "Fail")  # expect output Pass
+print("Pass" if (1 == sqrt(1)) else "Fail")  # expect output Pass
+print("Pass" if (5 == sqrt(27)) else "Fail")  # expect output Pass
+print("Pass" if (None == sqrt('Hello')) else "Fail")  # expect output Pass
+print("Pass" if (None == sqrt(-34)) else "Fail")  # expect output Pass
+print("Pass" if (None == sqrt(14.3)) else "Fail")  # expect output Pass
