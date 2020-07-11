@@ -37,7 +37,7 @@ def test_function(test_case):
 test_function([[1, 2, 3, 4, 5], [531, 42]])
 
 test_case = [[4, 6, 2, 5, 9, 8], [964, 852]]
-test_function(test_case)
+test_function(test_case)    # output Pass
 
 test_case = [[], []]
-test_function(test_case)
+test_function(test_case)    # output Pass
