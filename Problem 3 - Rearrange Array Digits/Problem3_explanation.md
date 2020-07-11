@@ -7,6 +7,6 @@ Here I have used sort(), built-in function.
 ## Run time complexity: ```O(nlog(n))```
 The built in sort() function has time complexity of ```O(nlog(n))```.
 
-## Space complexity: ```O(1)```
+## Space complexity: ```O(N)```
 The sort method sorts a list in place, it does use some additional space, as stated in the [description](https://github.com/python/cpython/blob/master/Objects/listsort.txt) of the implementation. 
 Therefore the worst case space complexity is ```O(N)``` and best case ```O(1)```
