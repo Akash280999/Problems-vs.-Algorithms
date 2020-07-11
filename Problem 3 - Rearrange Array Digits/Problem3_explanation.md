@@ -1,12 +1,11 @@
 # Problems vs Algorithms - Problem 3 - Rearrange Array Digits - Explanation
 
 ## Logic implemented
-Python uses an algorithm called Timsort. Timsort is a hybrid sorting algorithm, derived from merge sort and insertion sort. <br>
-Here I have used sort(), built-in function.
+Implemented the logic of mergesort. It is a Divide and Conquer algorithm. <br>
+So, I used the ```mergesort()``` function which divides input array in two halves recursively till it becomes single unit and then merges the two halves using ```merge()``` and sorts them.
 
 ## Run time complexity: ```O(nlog(n))```
-The built in sort() function has time complexity of ```O(nlog(n))```.
+Time complexity of Merge Sort is ```O(nlog(n))``` in all 3 cases (worst, average and best) as merge sort always divides the array into two halves and take linear time to merge two halves.
 
 ## Space complexity: ```O(N)```
-The sort method sorts a list in place, it does use some additional space, as stated in the [description](https://github.com/python/cpython/blob/master/Objects/listsort.txt) of the implementation. 
-Therefore the worst case space complexity is ```O(N)``` and best case ```O(1)```
+I used a buffer array of the length equal to the number of inputs , so the space complexity is ```O(n)```
